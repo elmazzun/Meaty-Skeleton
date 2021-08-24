@@ -5,4 +5,6 @@
 void kernel_main(void) {
 	terminal_initialize();
 	printf("Hello, kernel World!\n");
+	printf("This row must be under the first one.\n");
+	printf("omg it works\n");
 }
